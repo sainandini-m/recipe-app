@@ -1,0 +1,20 @@
+header{
+    width: 100%;
+    height: 100px;
+    color: black;
+    background-color: bisque;
+    display: inline-flex;
+
+}
+
+.header-tag{
+    display: inline;
+    padding-left: 5px;
+
+}
+
+#submit-recipe{
+    right: 15px;
+    position: absolute;
+    top: 20px;
+}
