@@ -1,0 +1,40 @@
+<div  >
+    <div *ngFor='let list of receipeList' style="float: left;" class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip" >
+                <div class="mainflip flip-0">
+                    <div class="frontside">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="top-half">
+                                    <h4 class="card-title"><b></b></h4>
+                                    <p class="card-text"><span><img style="height: 90px;width: 150px" src={{list.image}} />  </span></p>
+                                </div>
+                                <hr/>
+                                <div class="company"> <p class="card-title" style="font-size: 14px">  {{list.title}}</p> 
+    
+                                    <p class="card-text" style="font-style: italic"><q>{{list.brief}}</q></p> 
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title"> <a>Read More..</a> </h4>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+</div>
+
+
+
+
+
