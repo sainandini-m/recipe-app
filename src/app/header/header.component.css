@@ -18,8 +18,7 @@ p{
 }
 
 .tag-list{
-    position: absolute; 
-    left: 500px;
+  float: right;
 }
 
 #submit-recipe{

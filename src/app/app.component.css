@@ -9,15 +9,14 @@
 }
 
 #header-image{   
-    
     height: 650px;
-    width: fit-content;
+    width: -webkit-fill-available;
 }
 
 .tiles{
-    
+    position: absolute;
     background-color: #289944;
-    height: 500px;
+    height: 100%;
     width: 100%;
 }
 
