@@ -1,0 +1,16 @@
+<!-- One way data binding -->
+<!-- <textarea rows="6" [value]="newPost" #postValue></textarea>
+<button (click)="onAddPost(postValue)">Save</button> -->
+
+<!-- Two Way data binding using NgModel directive-->
+<mat-card>
+  <mat-form-field>
+    <input matInput type="text" [(ngModel)]="enteredTitle">
+  </mat-form-field>
+  <mat-form-field>
+    <textarea matInput rows="6" [(ngModel)]="enteredContent"></textarea>
+  </mat-form-field>
+  <button  mat-raised-button color="accent"
+  (click)="onAddPost()">Save Post</button>
+</mat-card>
+
