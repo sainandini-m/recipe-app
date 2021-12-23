@@ -1,0 +1,45 @@
+#header {
+  display: contents;
+  height: 100%;
+  width: 100%;
+}
+
+#child-header{
+
+ top: 10px;
+ color: white;
+}
+
+#header-image{
+  height: 650px;
+  width: -webkit-fill-available;
+}
+
+.tiles{
+
+  background-color: #192F01;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.tile{
+  margin-top: 15px;
+  position: absolute;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+div{
+  width: 100%;
+  height: 100px;
+  display: inline-flex;
+}
+
+h1,p{
+  font-family: 'Pacifico', cursive;
+  padding-left: 30px;
+  font-size: 30px;
+}
+

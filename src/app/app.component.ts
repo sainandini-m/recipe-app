@@ -9,9 +9,9 @@ import { Post } from './posts/post.model';
 export class AppComponent {
   title = 'recipe-app';
 
-  storedPosts:Post[]=[];
+  // storedPosts:Post[]=[];
 
-  onPostAdded(post){
-    this.storedPosts.push(post)
-  }
+  // onPostAdded(post){
+  //   this.storedPosts.push(post)
+  // }
 }

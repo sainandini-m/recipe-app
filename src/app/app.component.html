@@ -1,15 +1,7 @@
-<div id="header">
-  <img id="header-image" src="/assets/header-image.jpg" alt="image">
-  <div id="child-header">
-    <app-header></app-header>
-  </div>
+<div style="background-color: #fecf02;
+            display: block;
+            color: white;">
+  <app-header></app-header>
 </div>
 
-<div class="tiles">
-  <h6 style="color: whitesmoke; padding: 15px;">Featured Recipes</h6>
-  <div class="tile">
-    <app-tiles></app-tiles>
-    <app-post-create (postCreated)="onPostAdded($event)"></app-post-create>
-    <app-post-list [posts]="storedPosts"></app-post-list>
-  </div>
-</div>
+<router-outlet></router-outlet>
