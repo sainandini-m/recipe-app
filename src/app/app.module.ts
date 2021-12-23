@@ -8,6 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 //components
 import { AppComponent } from './app.component';
@@ -35,7 +36,8 @@ import { HomeComponent } from './home/home.component';
     MatInputModule,
     MatCardModule,
     MatButtonModule,
-    MatExpansionModule
+    MatExpansionModule,
+    CarouselModule
   ],
   providers: [PostSerivce],
   bootstrap: [AppComponent]
